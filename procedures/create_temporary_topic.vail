@@ -1,0 +1,7 @@
+PROCEDURE create_temporary_topic()
+
+var msg = {}
+msg.a = 4
+msg.b = 5
+
+PUBLISH msg to TOPIC "/xiaoguo/temporary_topic"

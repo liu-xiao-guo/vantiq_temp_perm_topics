@@ -1,0 +1,5 @@
+{
+  "description" : "this is a permanent topic",
+  "messageType" : "permanent_schema",
+  "name" : "/xiaoguo/permanent_topic"
+}

@@ -1,0 +1,1 @@
+This is a simple app showing the differences between a temporary topic and a permanent topic.

@@ -1,0 +1,270 @@
+{
+  "links" : [ {
+    "source" : "procedure/create_temporary_topic",
+    "target" : "topic//xiaoguo/temporary_topic"
+  }, {
+    "source" : "topic//xiaoguo/permanent_topic",
+    "target" : "app/MyApp"
+  }, {
+    "source" : "client/topic_client",
+    "target" : "topic//my/response/topic"
+  }, {
+    "source" : "topic//xiaoguo/permanent_topic",
+    "target" : "client/topic_client"
+  }, {
+    "source" : "topic//xiaoguo/permanent_topic",
+    "target" : "type/permanent_schema"
+  }, {
+    "source" : "topic//xiaoguo/perm1",
+    "target" : "app/newapp"
+  } ],
+  "name" : "temp_perm_topics",
+  "options" : {
+    "description" : "",
+    "filterBitArray" : "ffffffffffffffffffffffffffffffff",
+    "isModeloProject" : true,
+    "layoutStyle" : "custom",
+    "showGrid" : true,
+    "v" : 2
+  },
+  "resources" : [ {
+    "name" : "/my/response/topic",
+    "node" : {
+      "x" : 311.5244013574152,
+      "y" : -22.13359966768753
+    },
+    "type" : 10
+  }, {
+    "name" : "/xiaoguo/perm1",
+    "node" : {
+      "x" : 491.3685126427626,
+      "y" : 297.65524749894143
+    },
+    "type" : 10
+  }, {
+    "inventory" : {
+      "appmodelHash" : [ ],
+      "appmodels" : [ ],
+      "collaborationHash" : [ ],
+      "collaborations" : [ ],
+      "pagesetHash" : [ ],
+      "pagesets" : [ ],
+      "procedureHash" : [ ],
+      "procedures" : [ ],
+      "sourceHash" : [ ],
+      "sources" : [ ],
+      "topicHash" : [ ],
+      "topics" : [ ],
+      "typeHash" : [ "out" ],
+      "types" : [ "permanent_schema" ]
+    },
+    "name" : "/xiaoguo/permanent_topic",
+    "node" : {
+      "x" : 292.2899904274553,
+      "y" : 161.96802538605854
+    },
+    "type" : 10
+  }, {
+    "name" : "/xiaoguo/temporary_topic",
+    "node" : {
+      "x" : 213.64805792834545,
+      "y" : 190.22467126317252
+    },
+    "type" : 10
+  }, {
+    "inventory" : {
+      "appmodelHash" : [ ],
+      "appmodels" : [ ],
+      "collaborationHash" : [ ],
+      "collaborations" : [ ],
+      "pagesetHash" : [ ],
+      "pagesets" : [ ],
+      "procedureHash" : [ ],
+      "procedures" : [ ],
+      "sourceHash" : [ ],
+      "sources" : [ ],
+      "topicHash" : [ "in" ],
+      "topics" : [ "/xiaoguo/permanent_topic" ],
+      "typeHash" : [ ],
+      "types" : [ ]
+    },
+    "name" : "MyApp",
+    "node" : {
+      "x" : 381.34609254733766,
+      "y" : 257.4731690668052
+    },
+    "timestamp" : "2019-02-25T02:46:31.945Z",
+    "type" : 12
+  }, {
+    "inventory" : {
+      "appmodelHash" : [ ],
+      "appmodels" : [ ],
+      "collaborationHash" : [ ],
+      "collaborations" : [ ],
+      "pagesetHash" : [ ],
+      "pagesets" : [ ],
+      "procedureHash" : [ ],
+      "procedures" : [ ],
+      "sourceHash" : [ ],
+      "sources" : [ ],
+      "topicHash" : [ "out" ],
+      "topics" : [ "/xiaoguo/temporary_topic" ],
+      "typeHash" : [ ],
+      "types" : [ ]
+    },
+    "name" : "create_temporary_topic",
+    "node" : {
+      "x" : 338.75307217696337,
+      "y" : 92.22374624240081
+    },
+    "timestamp" : "2019-02-25T02:09:57.109Z",
+    "type" : 3
+  }, {
+    "inventory" : {
+      "appmodelHash" : [ ],
+      "appmodels" : [ ],
+      "collaborationHash" : [ ],
+      "collaborations" : [ ],
+      "pagesetHash" : [ ],
+      "pagesets" : [ ],
+      "procedureHash" : [ ],
+      "procedures" : [ ],
+      "sourceHash" : [ ],
+      "sources" : [ ],
+      "topicHash" : [ ],
+      "topics" : [ ],
+      "typeHash" : [ ],
+      "types" : [ ]
+    },
+    "name" : "find_topics",
+    "node" : {
+      "x" : 652.0725236153573,
+      "y" : 53.05573164652526
+    },
+    "timestamp" : "2019-02-25T02:56:00.176Z",
+    "type" : 3
+  }, {
+    "inventory" : {
+      "appmodelHash" : [ ],
+      "appmodels" : [ ],
+      "collaborationHash" : [ ],
+      "collaborations" : [ ],
+      "pagesetHash" : [ ],
+      "pagesets" : [ ],
+      "procedureHash" : [ ],
+      "procedures" : [ ],
+      "sourceHash" : [ ],
+      "sources" : [ ],
+      "topicHash" : [ "in" ],
+      "topics" : [ "/xiaoguo/perm1" ],
+      "typeHash" : [ ],
+      "types" : [ ]
+    },
+    "name" : "newapp",
+    "node" : {
+      "x" : 556.9693193387119,
+      "y" : 164.44605275957517
+    },
+    "timestamp" : "2019-02-25T02:50:10.860Z",
+    "type" : 12
+  }, {
+    "name" : "permanent_schema",
+    "node" : {
+      "x" : 463.2817512689791,
+      "y" : 106.3397801640082
+    },
+    "timestamp" : "2019-02-25T02:14:16.022Z",
+    "type" : 1
+  }, {
+    "inventory" : {
+      "appmodelHash" : [ ],
+      "appmodels" : [ ],
+      "collaborationHash" : [ ],
+      "collaborations" : [ ],
+      "pagesetHash" : [ ],
+      "pagesets" : [ ],
+      "procedureHash" : [ ],
+      "procedures" : [ ],
+      "sourceHash" : [ ],
+      "sources" : [ ],
+      "topicHash" : [ "out", "in" ],
+      "topics" : [ "/my/response/topic", "/xiaoguo/permanent_topic" ],
+      "typeHash" : [ ],
+      "types" : [ ]
+    },
+    "name" : "topic_client",
+    "node" : {
+      "x" : 179.1982587780314,
+      "y" : 59.18889270056828
+    },
+    "timestamp" : "2019-02-25T02:46:59.351Z",
+    "type" : 15
+  } ],
+  "tools" : [ {
+    "isPinned" : false,
+    "name" : "Project Resource Graph",
+    "pane" : {
+      "h" : 370,
+      "w" : 660,
+      "x" : 0,
+      "y" : 0
+    },
+    "toolOptions" : {
+      "scaleAndTranslationState" : {
+        "lastZoomRequest" : 0,
+        "scale" : 0.7320428479728125,
+        "translate" : [ 91.36582338361609, 76.81558369155212 ]
+      }
+    },
+    "type" : 1
+  }, {
+    "isPinned" : false,
+    "name" : "MyApp",
+    "pane" : {
+      "h" : 390,
+      "w" : 680,
+      "x" : 670,
+      "y" : 10
+    },
+    "resourceKey" : "app/MyApp",
+    "type" : 15
+  }, {
+    "isPinned" : false,
+    "name" : "/xiaoguo/permanent_topic",
+    "pane" : {
+      "h" : 400,
+      "w" : 600,
+      "x" : 20,
+      "y" : 380
+    },
+    "resourceKey" : "topic//xiaoguo/permanent_topic",
+    "type" : 8
+  }, {
+    "isPinned" : false,
+    "name" : "newapp",
+    "pane" : {
+      "h" : 500,
+      "w" : 800,
+      "x" : 90,
+      "y" : 810.0000305175781
+    },
+    "resourceKey" : "app/newapp",
+    "type" : 15
+  }, {
+    "isPinned" : false,
+    "name" : "/xiaoguo/perm1",
+    "pane" : {
+      "h" : 400,
+      "w" : 600,
+      "x" : 90,
+      "y" : 1330
+    },
+    "resourceKey" : "topic//xiaoguo/perm1",
+    "type" : 8
+  } ],
+  "type" : "dev",
+  "views" : [ {
+    "name" : "Main",
+    "projectToolKeys" : [ "graph/Project Resource Graph", "app/MyApp", "subtopiceditor//xiaoguo/permanent_topic", "subsubscribeeditor/MyApp_topic_app", "app/newapp", "subtopiceditor//xiaoguo/perm1" ]
+  } ]
+}

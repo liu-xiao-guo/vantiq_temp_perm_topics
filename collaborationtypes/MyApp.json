@@ -1,0 +1,28 @@
+{
+  "active" : true,
+  "appType" : true,
+  "assembly" : {
+    "topic_app" : {
+      "configuration" : {
+        "childStreams" : null,
+        "inboundResource" : "topics",
+        "inboundResourceId" : "/xiaoguo/permanent_topic",
+        "op" : null,
+        "outboundResource" : null,
+        "outboundResourceId" : null,
+        "schema" : null,
+        "upsert" : false
+      },
+      "description" : null,
+      "pattern" : "EventStream"
+    }
+  },
+  "collaboratorRoles" : [ ],
+  "currentState" : {
+    "code" : "success"
+  },
+  "description" : "",
+  "entityRoles" : [ ],
+  "keyTypes" : [ "system.collaborations" ],
+  "name" : "MyApp"
+}

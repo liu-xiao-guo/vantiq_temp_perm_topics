@@ -1,0 +1,33 @@
+{
+  "adminAccessLevel" : "ars_readWrite",
+  "audited" : false,
+  "encapsulated" : false,
+  "foreignKeys" : null,
+  "groupEnabled" : false,
+  "groupRequired" : false,
+  "indexes" : [ ],
+  "maxObjects" : 0,
+  "maxStorage" : 0,
+  "metadata" : false,
+  "name" : "permanent_schema",
+  "naturalKey" : [ ],
+  "properties" : {
+    "a" : {
+      "encrypted" : false,
+      "multi" : false,
+      "required" : false,
+      "type" : "Integer",
+      "unique" : false
+    },
+    "b" : {
+      "encrypted" : false,
+      "multi" : false,
+      "required" : false,
+      "type" : "Integer",
+      "unique" : false
+    }
+  },
+  "role" : "standard",
+  "userAccessLevel" : "ars_readOnly",
+  "volatile" : false
+}

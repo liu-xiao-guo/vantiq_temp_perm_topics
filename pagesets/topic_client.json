@@ -1,0 +1,143 @@
+{
+  "controllers" : {
+    "client" : { },
+    "dataStream" : {
+      "pe_topic_datastream" : { }
+    },
+    "page" : {
+      "Start" : {
+        "widgets" : { }
+      }
+    }
+  },
+  "isLaunchable" : false,
+  "models" : {
+    "dataObjects" : {
+      "__GLOBAL__" : {
+        "properties" : { }
+      },
+      "__PARAMETERS__" : {
+        "properties" : { }
+      }
+    },
+    "dataStreams" : [ {
+      "advancedWhereClause" : null,
+      "dataObjectName" : null,
+      "dataTypeList" : [ ],
+      "isDeleteOp" : false,
+      "isInsertOp" : false,
+      "isUpdateOp" : false,
+      "maxRecords" : 0,
+      "name" : "pe_topic_datastream",
+      "property" : null,
+      "sortByProperty" : null,
+      "sortDescending" : false,
+      "topic" : "/xiaoguo/permanent_topic",
+      "type" : 2,
+      "updateInterval" : 60,
+      "uuid" : "9ae008af-3db6-4ef2-9cbb-398da7dd4b7b",
+      "v" : 1
+    } ]
+  },
+  "name" : "topic_client",
+  "options" : {
+    "badgeCount" : 0,
+    "description" : "",
+    "showGridWhileEditing" : false,
+    "theme" : {
+      "backgroundColor" : "#ffffff",
+      "borderColor" : "#d3d6db",
+      "cardAccentColor" : "#ffffff",
+      "cardColor" : "#3c424d",
+      "foregroundColor" : "#566076",
+      "label" : "Light",
+      "name" : "light",
+      "titleBarColor" : "#f0f2f8",
+      "v" : 2
+    },
+    "v" : 3
+  },
+  "targetDevice" : "browser",
+  "userList" : [ ],
+  "views" : {
+    "Start" : {
+      "bodyChildren" : [ {
+        "CSSClass" : "vantiqDataTable",
+        "actionMenuLabel" : null,
+        "actionMenuTopic" : null,
+        "borderColor" : "Default",
+        "borderRadius" : 4,
+        "borderWidth" : 1,
+        "cellFontColor" : "#000000",
+        "cellFontFace" : "inherit",
+        "cellFontSize" : 14,
+        "cellFontStyle" : "plain",
+        "columns" : [ ],
+        "dataStreamGroupedByFiltersString" : "",
+        "dataStreamPropertyList" : [ ],
+        "dataStreamUUID" : "9ae008af-3db6-4ef2-9cbb-398da7dd4b7b",
+        "dataType" : null,
+        "h" : 182,
+        "headerFontColor" : "#000000",
+        "headerFontFace" : "inherit",
+        "headerFontSize" : 14,
+        "headerFontStyle" : "plain",
+        "heightPolicy" : 0,
+        "horzGravity" : 4,
+        "isDraggable" : true,
+        "isSelectable" : true,
+        "name" : "DataTable1",
+        "operation" : "insert",
+        "propertyName" : null,
+        "rowsPerPage" : 5,
+        "type" : "DataTableWidget",
+        "v" : 14,
+        "vertGravity" : 4,
+        "w" : 508,
+        "widthPolicy" : 1,
+        "x" : 14.770832061767578,
+        "y" : 57.4444580078125
+      }, {
+        "CSSClass" : "vantiqGauge",
+        "actionMenuLabel" : null,
+        "actionMenuTopic" : null,
+        "borderColor" : "Default",
+        "borderRadius" : 4,
+        "borderWidth" : 1,
+        "dataStreamGroupedByFiltersString" : "",
+        "dataStreamPropertyList" : [ ],
+        "dataStreamUUID" : "9ae008af-3db6-4ef2-9cbb-398da7dd4b7b",
+        "dataType" : null,
+        "greenZones" : "",
+        "h" : 153,
+        "heightPolicy" : 1,
+        "horzGravity" : 4,
+        "isDraggable" : true,
+        "isSelectable" : true,
+        "maximum" : 100,
+        "minimum" : 0,
+        "name" : "Gauge53",
+        "naturalKey" : null,
+        "naturalKeyValue" : null,
+        "operation" : "insert",
+        "propertyName" : null,
+        "redZones" : "90:100",
+        "type" : "GaugeWidget",
+        "v" : 14,
+        "vertGravity" : 4,
+        "w" : 153,
+        "widthPolicy" : 1,
+        "x" : 562.1111450195312,
+        "y" : 58.777801513671875,
+        "yellowZones" : "70:90"
+      } ],
+      "data" : {
+        "properties" : { }
+      },
+      "fields" : [ ],
+      "footerChildren" : [ ],
+      "layoutType" : "browser",
+      "responseTopic" : "/my/response/topic"
+    }
+  }
+}

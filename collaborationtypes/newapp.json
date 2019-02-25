@@ -1,0 +1,30 @@
+{
+  "active" : true,
+  "appType" : true,
+  "assembly" : {
+    "incoming" : {
+      "configuration" : {
+        "childStreams" : null,
+        "inboundResource" : "topics",
+        "inboundResourceId" : "/xiaoguo/perm1",
+        "op" : null,
+        "outboundResource" : null,
+        "outboundResourceId" : null,
+        "parentStreams" : [ ],
+        "schema" : null,
+        "upsert" : false
+      },
+      "description" : null,
+      "name" : "incoming",
+      "pattern" : "EventStream"
+    }
+  },
+  "collaboratorRoles" : [ ],
+  "currentState" : {
+    "code" : "success"
+  },
+  "description" : "",
+  "entityRoles" : [ ],
+  "keyTypes" : [ "system.collaborations" ],
+  "name" : "newapp"
+}

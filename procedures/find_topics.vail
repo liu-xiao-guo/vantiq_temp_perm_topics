@@ -1,0 +1,7 @@
+PROCEDURE find_topics()
+
+var theTopic = select exactly one from system.topics as topic WHERE name == "/xiaoguo/permanent_topic"
+
+var topic_temp = select from system.topics as topic WHERE name == "/xiaoguo/temporary_topic"
+
+return topic_temp
